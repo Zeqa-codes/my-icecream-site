@@ -1,0 +1,547 @@
+/* selector{
+    property: value;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+
+*{       
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    height: 4.5em;
+    width:  100%;
+    background-color: rgb(151, 32, 32);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+}
+
+nav .logoCon{
+    height: 100%;
+    width: 20%;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+nav .link-con{
+    height: 100%;
+    width: 25%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: right;
+}
+
+nav .logoCon img{
+     height: 80%;
+}
+
+nav .link-con ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 90%;
+    /* background-color: blanchedalmond; */
+    list-style: none;
+    color: white;
+    font-size: 85%;
+
+
+}
+ nav .link-con ul li a{
+       text-decoration: none;
+       /* color: whitesmoke; */
+ }
+
+main{
+    height: 35em;
+    width: 100%;
+    background-color: chocolate;
+    background-image: url(./coldstone/images/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position-y: 10%;
+    display: flex;
+    align-items: center;
+} 
+
+main div{
+      height: 20%;
+      width: 25%;
+      /* background-color: darkolivegreen; */
+      margin-top: 5%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 3%;
+}
+    
+main div button{
+    height: 75%;
+    width: 40%;
+    border-radius: 20px;
+    border: 1px solid rgb(151, 32, 32);
+    font-size: larger;
+    color: rgb(151, 32, 32);
+}
+
+.promo-con{
+    height: 5em;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+}
+
+.promo-con h2{
+    margin-left: 2%;
+    font-size: 220%;
+    color: rgb(151, 32, 32);
+    font-family: lobster two;
+}
+
+.promo-items{
+    height: 15em;
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    
+
+}
+
+
+.promo-items .one{
+    height: 100%;
+    width: 31%;
+    /* background-color: chartreuse; */
+    background-image: url(./coldstone/images/promo1.png);
+    background-size: cover;
+
+}
+.promo-items .two{
+    height: 100%;
+    width: 31%;
+    background-color:red;
+    background-image: url(./coldstone/images/promo2.png);
+    background-size: cover;
+
+}
+.promo-items .three{
+    height: 100%;
+    width: 31%;
+    background-color:blue;
+    background-image: url(./coldstone/images/promo3.png);
+    background-size: cover;
+    
+}
+
+.fave-con{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 7em;
+    /* background-color: yellowgreen; */
+}
+.fave-con h2{
+    /* background-color: aqua; */
+    width: 100%;
+    display: flex;
+    margin-left: 2%;
+    color:rgb(151, 32, 32);
+    margin-top: 1%;
+    font-family: lobster two;
+    font-size: 200%;
+    
+} 
+.fave-items{
+    height: 20em;
+    /* background-color: aqua; */
+    width:100%;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    
+}
+.fave-items .one{
+    /* background-color: greenyellow; */
+    height: 100%;
+    width: 30%;
+    text-align: center;
+
+}
+
+.oreo{
+    width: 65%;
+}
+
+.oreo-text1{
+    font-size: 150%;
+    color: rgb(151, 32, 32);
+    margin-top: 1%;
+    margin-bottom: 1.5%;
+    font-weight: bolder; 
+
+}
+.oreo-text2{
+    font: size 120%;
+    color: grey;
+    font-weight: bolder;
+}
+
+.oreo-text3{
+    font: size 120%;
+    color: grey;
+    font-weight: bolder;
+    margin: 1.5%;
+}
+
+.fave-items .two{
+    /* background-color:blue; */
+    height: 100%;
+    width: 30%;
+    text-align: center;
+
+}
+
+.strawberry{
+    width: 65%;
+}
+.strawb-text1{
+    font-size: 140%;
+    color: rgb(151, 32, 32);
+    font-weight: bolder;
+    margin-top: 1%;
+    margin-bottom: 2.5%;
+}
+.strawb-text2{
+    font-size: 120%;
+    color: grey;
+    font-weight: bolder;
+
+}
+
+.fave-items .three{
+    /* background-color:pink; */
+    height: 100%;
+    width: 30%;
+    text-align: center;
+
+}
+
+.delight{
+    width: 65%;
+}
+
+.delight-text1{
+    font-size: 150%;
+    color: rgb(151, 32, 32);
+    margin-top: 1%;
+    margin-bottom: 2.5%;
+    font-weight: bolder; 
+
+}
+.delight-text2{
+    font: size 120%;
+    color: grey;
+    font-weight: bolder;
+    
+}
+
+.delight-text3{
+    font: size 120%;
+    color: grey;
+    font-weight: bolder;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+.fave-items2{
+    height: 30em;
+    /* background-color: purple; */
+    width:100%;
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+ 
+}
+ 
+.fave-oneb{
+    /* background-color: greenyellow; */
+    height: 100%;
+    width: 30%;
+    text-align: center;
+}
+
+
+.fave-twob{
+    /* background-color: peachpuff; */
+    height: 100%;
+    width: 30%;
+    text-align: center;
+}
+
+.fave-threeb{
+    /* background-color: whitesmoke; */
+    height: 100%;
+    width: 30%;
+    text-align: center;
+}
+    
+.milk{
+    width: 65%;
+    margin-top: 38%;
+}
+    
+
+.milk-text1{
+    font-size: 150%;
+    color: rgb(151, 32, 32);
+    margin-top: 1%;
+    margin-bottom: 2.5%;
+    font-weight: bolder; 
+
+}
+.milk-text2{
+    font: size 120%;
+    color: grey;
+    margin-bottom: 2.5%;
+    font-weight: bolder;
+} 
+.waffle{
+    width: 65%;
+    margin-top: 38%;
+}
+
+.waffle-text1{
+    font-size: 150%;
+    color: rgb(151, 32, 32);
+    margin-top: 1%;
+    margin-bottom: 2.5%;
+    font-weight: bolder; 
+
+}
+.waffle-text2{
+    font: size 120%;
+    color: grey;
+    font-weight: bolder;
+}
+
+.choco{
+    width: 65%;
+    margin-top: 38%;
+}
+
+.choco-text1{
+    font-size: 150%;
+    margin-top: 1%;
+    margin-bottom: 2.5%;
+    font-weight: bolder; 
+    color: rgb(151, 32, 32);
+}
+.choco-text2{
+    font-size:120%;
+    color: grey;
+    font-weight: bolder;
+}
+
+.make-con{
+    height: 5em;
+    width: 100%;
+    background-color:rgb(151, 32, 32);
+    font-size: 110%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+    
+
+.make-items{
+    height: 20em;
+    width: 100%;
+    background-color:rgb(151, 32, 32);
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+}
+
+.make-items .one{
+    height: 100%;
+    width: 30%;
+    /* background-color: pink; */
+    text-align: center;
+}
+
+
+
+.make-items .two{
+    height: 100%;
+    width: 30%;
+    /* background-color: greenyellow; */
+    text-align: center;
+}
+
+.make-items .three{
+    height: 100%;
+    width: 30%;
+    /* background-color:violet; */
+    text-align: center;
+}
+
+.icecream{
+    width: 60%;
+    
+}
+.icecream-text1{
+    font-size: 150%;
+    color: white;
+    margin-top: 1%;
+    margin-bottom: 2.5%;
+    font-weight: lighter;
+}
+.icecream-text2{
+    font-size: 80%;
+    color: white;
+}
+.cakes{
+    width: 60%;
+}
+.cakes-text1{
+    font-size: 150%;
+    color: white;
+    margin-top: 1%;
+    margin-bottom: 2.5%;
+    font-weight: lighter;
+}
+.cakes-text2{
+    font-size: 80%;
+    color: white;
+}
+
+.shakes{
+    width: 60%;
+}
+.shakes-text1{
+    font-size: 150%;
+    color: white;
+    margin-top: 1%;
+    margin-bottom: 2.5%;
+    font-weight: lighter;
+}
+.shakes-text2{
+    font-size: 80%;
+    color: white;
+}
+
+.banner{
+    height: 30em;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+.bannerpic{
+    width: 100%;
+    height: 100%;
+    filter: brightness(50%);
+}
+
+.bannerpic-text1{
+    font-size: 220%;
+    font-weight: bolder;
+    color: white;
+    position: absolute;
+    font-family: lobster two;
+}
+.footer{
+    height: 6%;
+    width: 100%;
+    background-color:rgb(151, 32, 32);
+    display: flex;
+}
+.footer .one{
+    height:5em;
+    width: 25%;
+    /* background-color: red; */
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+
+    
+    
+}  
+.footer .two{
+    height:5em;
+    width: 25%;
+    /* background-color: pink; */
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    
+
+}  
+.footer .three{
+    height:5em;
+    width: 25%;
+    /* background-color: orange; */
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+
+}  
+.footer .four{
+    height:5em;
+    width: 25%;
+    /* background-color: greenyellow; */
+    text-align: center;
+   font-weight:bolder;
+   color: white;
+
+}
+
+.footer-text1{
+    margin-top: 7%;
+    font-size: x-large;
+}
+.footer-text2{
+    margin-top: 7%;
+    font-size: x-large;
+}
+.footer-text3{
+    margin-top: 7%;
+    font-size: x-large;
+}
+.footer-text4{
+    margin-top: 7%;
+    font-size: x-large;
+}
+
+.footer2{
+    height: 6em;
+    width: 100%;
+    background-color: rgb(151, 32, 32);
+    display: flex;
+    justify-content: center;
+}
+.footer2 .one{
+    height: 80%;
+    width: 99%;
+    background-color: #b33939;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+}
